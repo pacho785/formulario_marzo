@@ -1,55 +1,58 @@
 /* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    background-image: linear-gradient(450deg, #ffcfc7, #fac431);
-  }
-  
-  .formulario {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-border-radius: 20px;
-  }
-  
-  /* Estilos de los campos del formulario */
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+
+* {
     box-sizing: border-box;
   }
   
-  input[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
+  body {
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(134, 134, 216);
+  }
+  
+  /* Estilos para la animación Lottie */
+  
+  .lottie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos para el formulario */
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
   }
   
-  input[type="submit"]:hover {
-    background-color: #3e8e41;
+  button:hover {
+    background-color: #0069d9;
   }
   
-  /* Estilos adicionales */
-  .boton {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  } 
-*{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-
-}
+  
